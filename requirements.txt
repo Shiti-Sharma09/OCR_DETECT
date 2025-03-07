@@ -1,0 +1,8 @@
+streamlit
+easyocr
+numpy
+opencv-python
+pandas
+pillow
+deep-translator
+scikit-learn
