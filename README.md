@@ -2,11 +2,11 @@
 
 OCR & Translation Tool
 
-📌 #Overview
+## 📌 Overview
 
 This is a Streamlit-based OCR (Optical Character Recognition) and Translation tool that extracts text from images while preserving structure, including tables and paragraphs. It also provides translation capabilities to multiple languages using the Google Translator API.
 
-🚀 #Features
+## 🚀 Features
 
 Extracts text from uploaded images using EasyOCR.
 
@@ -18,18 +18,18 @@ Displays structured output by overlaying extracted text on a blank image.
 
 Supports various languages including English, Hindi, Punjabi, French, Spanish, and more.
 
-📂 #Installation
+## 📂 Installation
 
 Follow these steps to set up the project locally:
 
-1️⃣ ##Clone the Repository
+### 1️⃣ Clone the Repository
 
  ```sh
   git clone https://github.com/yourusername/ocr-translation-tool.git
 cd ocr-translation-tool
   ```
 
-2️⃣ ##Create a Virtual Environment (Optional but Recommended)
+### 2️⃣ Create a Virtual Environment (Optional but Recommended)
 
  ```sh
 python -m venv venv
@@ -37,13 +37,13 @@ source venv/bin/activate  # On macOS/Linux
 venv\Scripts\activate    # On Windows
   ```
 
-3️⃣ ##Install Dependencies
+### 3️⃣ Install Dependencies
 
  ```sh
 pip install -r requirements.txt
   ```
 
-🛠️ #Usage
+## 🛠️ Usage
 
 Run the application with the following command:
 
@@ -51,7 +51,7 @@ Run the application with the following command:
 streamlit run app.py
  ```
 
-📤 #Upload Image
+## 📤 Upload Image
 
 Click on the "Choose an image" button to upload a JPG, PNG, or JPEG file.
 
@@ -59,7 +59,7 @@ Select OCR languages and a translation language.
 
 Click "Process Image" to extract and translate text.
 
-📊 #Output
+## 📊 Output
 
 Extracted structured text will be displayed.
 
