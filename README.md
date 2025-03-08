@@ -70,5 +70,5 @@ streamlit run app.py
 All required dependencies are listed in :
 
  ```sh
-requirements.txt.
+requirements.txt
  ```
