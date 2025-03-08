@@ -1,6 +1,5 @@
-# OCRDETECT
+#  SnapScribe(OCR & Translation Tool)
 
-OCR & Translation Tool
 
 ## 📌 Overview
 
@@ -8,15 +7,15 @@ This is a Streamlit-based OCR (Optical Character Recognition) and Translation to
 
 ## 🚀 Features
 
-Extracts text from uploaded images using EasyOCR.
+* Extracts text from uploaded images using EasyOCR.
 
-Maintains text structure and detects table elements.
+* Maintains text structure and detects table elements.
 
-Provides translation into multiple languages.
+* Provides translation into multiple languages.
 
-Displays structured output by overlaying extracted text on a blank image.
+* Displays structured output by overlaying extracted text on a blank image.
 
-Supports various languages including English, Hindi, Punjabi, French, Spanish, and more.
+* Supports various languages including English, Hindi, Punjabi, French, Spanish, and more.
 
 ## 📂 Installation
 
@@ -53,22 +52,23 @@ streamlit run app.py
 
 ## 📤 Upload Image
 
-Click on the "Choose an image" button to upload a JPG, PNG, or JPEG file.
+1. Click on the "Choose an image" button to upload a JPG, PNG, or JPEG file.
 
-Select OCR languages and a translation language.
+2. Select OCR languages and a translation language.
 
-Click "Process Image" to extract and translate text.
+3. Click "Process Image" to extract and translate text.
 
 ## 📊 Output
 
-Extracted structured text will be displayed.
+* Extracted structured text will be displayed.
 
-Translation of the extracted text in the selected language.
+* Translation of the extracted text in the selected language.
 
-Table data (if detected) will be displayed in a structured format.
-
-A reconstructed image maintaining the original text layout.
 
 📜 #Dependencies
 
-All required dependencies are listed in requirements.txt.
+All required dependencies are listed in :
+
+ ```sh
+requirements.txt.
+ ```
